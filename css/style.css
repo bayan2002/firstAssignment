@@ -169,6 +169,36 @@ justify-content: center;
             .section-three1 img{
                 border-radius: 20px;
             }
+            /* start four section */
+.section-four{
+    background-image: url(../imges/mountains-7ddde89.jpg);
+    background-size: cover;
+    height: calc(500px);
+    
+}
+.section-four .intro-text{
+padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+text-align: center;
+max-width: 100%;
+}
+.section-four .intro-text h3{
+font-weight: bold;
+font-size: 25px;
+padding-top: 25px;
+padding-bottom: 30px;
+
+}
+.section-four .intro-text p{
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 15px;
+    color: rgb(0 0 0);
+
+}
+
     
             /* responsive tablet */
             @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -193,7 +223,7 @@ justify-content: center;
             }
             .section-three1{
                 flex-wrap: wrap;
-                flex-direction: column-reverse;
+                flex-direction: column;
             }
             .section-three1 .intro-text , .contact ,.text2{
                 width: 100%;
@@ -204,6 +234,10 @@ justify-content: center;
             .section-five{
                 flex-direction: column;
                 flex-wrap: wrap;
+            }
+            .contact{
+                padding-left: 50px;
+                margin-top: 20px;
             }
             .reverse{
                 flex-direction: column-reverse; 
