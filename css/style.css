@@ -122,3 +122,41 @@ justify-content: center;
         color: #4a4949;
         letter-spacing: 2px;
     }
+
+            /* responsive tablet */
+            @media screen and (max-width: 1023px) and (min-width: 768px) {
+                .continer{
+            width: 970px;}
+            }
+            /* responsive phone */
+            @media screen and (max-width: 767px){
+                .continer{
+            width: 500px;}
+            .first-section{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-content: center;
+                
+            
+            }
+            .icons{
+                flex-wrap: wrap;
+    
+            }
+            .section-three1{
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+            }
+            .section-three1 .intro-text , .contact ,.text2{
+                width: 100%;
+            }
+            .folwer-img{
+                width: 100%;
+            padding-bottom: 20%;}
+            .section-five{
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            } 
+    
