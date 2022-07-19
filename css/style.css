@@ -236,6 +236,14 @@ margin-top: 7px;
     margin-top: 20px; 
     border-radius: 3px;
 }
+/* start footer section  */
+footer{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    padding: 11px 10px;
+    background-color: #f2e6d4;
+}
     
             /* responsive tablet */
             @media screen and (max-width: 1023px) and (min-width: 768px) {
